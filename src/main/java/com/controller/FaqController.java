@@ -30,4 +30,4 @@ public class FaqController {
 			return new ResponseEntity<>(list, HttpStatus.OK);
 		}
 	}
-} 
+}
