@@ -15,13 +15,14 @@ public class CourseServiceImpl implements ICourseService {
 	private ICourseDAO iCourseDAO;
 
 	@Override
+	public List<Course> getAllCourse(){
+		return iCourseDAO.getAllCourse();
+	}
+
+	@Override
 	public Course getCourseById(int courseId) {
 		return iCourseDAO.getCourseById(courseId);
 	}
 
-	@Override
-	public List<Course> getAllCourse(){
-		return iCourseDAO.getAllCourse();
-	}
 
 }

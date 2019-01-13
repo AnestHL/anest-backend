@@ -21,7 +21,7 @@ public class RestClientUtil {
 
         Course[] courses = responseEntity.getBody();
         for(Course course : courses) {
-            System.out.println("Id: "+course.getId()+"Name: "+course.getCourseName());
+            System.out.println("Id: "+course.getId()+"Name: "+course.getCourse());
         }
     }
 
