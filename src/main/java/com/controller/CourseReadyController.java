@@ -15,8 +15,12 @@ import com.entity.CourseReady;
 @Controller
 @RequestMapping("course-ready")
 public class CourseReadyController {
-	@Autowired
 	private ICourseReadyService iCourseReadyService;
+
+	@Autowired
+	public CourseReadyController(ICourseReadyService iCourseReadyService) {
+		this.iCourseReadyService = iCourseReadyService;
+	}
 
 	@GetMapping("all")
 	public ResponseEntity<List<CourseReady>> getAllCourseReady() {

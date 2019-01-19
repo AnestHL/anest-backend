@@ -12,9 +12,9 @@ public interface ICourseService {
      List<Course> getAllCourse();
 
      /**
-      *
+      * get one course
       * @param id input course id
       * @return Course
       */
-     Course getCourseById(int id);
+     Course getCourseById(long id);
 }

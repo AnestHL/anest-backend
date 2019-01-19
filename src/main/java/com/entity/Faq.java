@@ -23,10 +23,10 @@ public class Faq {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name="id")
-    private int id;
+    private long id;
 
     @Column(name="course_id")
-    private int courseId;
+    private long courseId;
 
     @Column(name="question")
     private String question;

@@ -20,7 +20,7 @@ public class CourseServiceImpl implements ICourseService {
 	}
 
 	@Override
-	public Course getCourseById(int courseId) {
+	public Course getCourseById(long courseId) {
 		return null;
 	}
 

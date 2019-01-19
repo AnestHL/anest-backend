@@ -29,10 +29,10 @@ public class CourseReady {
     private String courseCode;
 
     @Column(name="course_id")
-    private int courseId;
+    private long courseId;
 
     @Column(name="total_student")
-    private int totalStudent;
+    private long totalStudent;
 
     @Column(name="start_at")
     private long startAt;
