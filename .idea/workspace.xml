@@ -3,23 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="981045f2-afa9-438e-a2a3-59e1c3488eca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/CourseReadyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/CourseReadyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/FaqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/FaqController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/CourseReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/CourseReady.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/Faq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/Faq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ICourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ICourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/IFaqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/IFaqService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/FaqServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/FaqServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/CourseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/FaqController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/FaqController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/CourseReady.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/entity/CourseReady.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/Faq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/entity/Faq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/ICourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/ICourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/IFaqService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/IFaqService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/FaqServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/FaqServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/config/RestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/CourseReadyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/FaqController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/CourseReady.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/entity/Faq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/repository/ICourseReadyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/repository/ICourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/repository/IFaqRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/ICourseReadyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/ICourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/IFaqService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/CourseReadyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/FaqServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/ApiMessages.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +37,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/FaqController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+            <state relative-caret-position="129">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,9 +96,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1124" />
+    <option name="x" value="844" />
     <option name="y" value="37" />
-    <option name="width" value="1438" />
+    <option name="width" value="1718" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -110,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +162,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,14 +220,16 @@
       <workItem from="1547395434519" duration="3328000" />
       <workItem from="1547399653541" duration="4045000" />
       <workItem from="1547893703094" duration="9403000" />
+      <workItem from="1548084208560" duration="52000" />
+      <workItem from="1548084343194" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21548000" />
+    <option name="totallyTimeSpent" value="21609000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1124" y="37" width="1438" height="1048" extended-state="0" />
+    <frame x="844" y="37" width="1718" height="1048" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -237,7 +238,7 @@
       <window_info id="Favorites" order="4" sideWeight="0.33407325" side_tool="true" weight="0.203125" />
       <window_info id="Learn" order="5" />
       <window_info id="Web" order="6" sideWeight="0.33407325" side_tool="true" weight="0.203125" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6614872" visible="true" weight="0.24238026" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6614872" visible="true" weight="0.24849217" />
       <window_info id="Structure" order="8" sideWeight="0.33851278" side_tool="true" weight="0.24568394" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32963374" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32963374" />
@@ -460,12 +461,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/FaqController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        <state relative-caret-position="129">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
           </folding>
         </state>
       </provider>
