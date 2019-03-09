@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import com.service.ICourseReadyService;
 import com.entity.CourseReady;
 
+
 @Service
 public class CourseReadyServiceImpl implements ICourseReadyService {
     @Autowired

@@ -22,7 +22,7 @@ public class CourseReadyController {
 		this.iCourseReadyService = iCourseReadyService;
 	}
 
-	@GetMapping("all")
+	@GetMapping("/all")
 	public ResponseEntity<List<CourseReady>> getAllCourseReady() {
 		List<CourseReady> list = iCourseReadyService.getAllCourseReady();
 		return new ResponseEntity<>(list, HttpStatus.OK);
