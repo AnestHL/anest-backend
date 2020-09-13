@@ -29,7 +29,7 @@ public class CourseController {
 			return new ResponseEntity(message, HttpStatus.NOT_FOUND);
 		}
 		else{
-			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 
