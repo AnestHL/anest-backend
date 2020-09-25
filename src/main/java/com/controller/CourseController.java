@@ -36,7 +36,7 @@ public class CourseController {
 	@GetMapping("all")
 	public ResponseEntity<List<Course>> getAllCourse() {
 		List<Course> list = courseService.getAllCourse();
-		//return new ResponseEntity<>(list, HttpStatus.OK);
-		return new ResponseEntity<>(list, HttpStatus.INTERNAL_SERVER_ERROR);
+		return new ResponseEntity<>(list, HttpStatus.OK);
+		//return new ResponseEntity<>(list, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 } 
